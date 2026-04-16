@@ -17,7 +17,7 @@ PASSWORD_REUSE_TIME 180
 -- Cantidad de cambios requeridos antes de reutilizar una password.
 PASSWORD_REUSE_MAX 5
 -- Funcion personalizada que valida complejidad de passwords.
-PASSWORD_VERIFY_FUNCTION DANCERROM_VERIFY_PASSWORD;
+PASSWORD_VERIFY_FUNCTION DANCEROOM_VERIFY_PASSWORD;
 /
 
 CREATE PROFILE DESAROLLADOR_PROFILE LIMIT
@@ -38,7 +38,7 @@ PASSWORD_REUSE_TIME 180
 -- Cantidad de cambios requeridos antes de reutilizar una password.
 PASSWORD_REUSE_MAX 5
 -- Funcion personalizada que valida complejidad de passwords.
-PASSWORD_VERIFY_FUNCTION DANCERROM_VERIFY_PASSWORD;
+PASSWORD_VERIFY_FUNCTION DANCEROOM_VERIFY_PASSWORD;
 /
 
 CREATE PROFILE ANALISTA_PROFILE LIMIT
@@ -59,5 +59,5 @@ PASSWORD_REUSE_TIME 180
 -- Cantidad de cambios requeridos antes de reutilizar una password.
 PASSWORD_REUSE_MAX 5
 -- Funcion personalizada que valida complejidad de passwords.
-PASSWORD_VERIFY_FUNCTION DANCERROM_VERIFY_PASSWORD;
+PASSWORD_VERIFY_FUNCTION DANCEROOM_VERIFY_PASSWORD;
 /
